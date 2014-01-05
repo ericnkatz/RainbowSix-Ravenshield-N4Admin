@@ -1,0 +1,289 @@
+<?php
+
+$text_gamemode['teamsurvival']		="Team-Überleben";
+$text_gamemode['survival']			="Überleben";
+$text_gamemode['hostage']			="Geisel";
+$text_gamemode['bomb']				="Bombe";
+$text_gamemode['pilot']				="Pilot";
+$text_gamemode['terrorhuntcoop']	="Terroristenjagd (Coop)";
+$text_gamemode['missioncoop']		="Mission (Coop)";
+$text_gamemode['hostagecoop']		="Geiselrettung (Coop)";
+$text_gamemode['terroristhuntadvmode']		="Terrorist Hunt Advanced";
+$text_gamemode['scatteredhuntadvmode']		="Scattered Hunt";
+$text_gamemode['capturetheenemymode']	="Capture the Enemy";
+$text_gamemode['countdownmode']		="Count Down Mode";
+$text_gamemode['kamikazemode']		="Kamikaze Mode";
+
+$text_yn['0']="Nein";
+$text_yn['1']="Ja";
+$text_01['0']="Aus";
+$text_01['1']="An";
+$text_01['none']="?";
+$text_yn['none']="?";
+
+$option_switchonoff['0']="<b>AUS</b>|an";
+$option_switchonoff['1']="<b>AN</b>|aus";
+
+$text_listtitle="Raven-Shield Serverliste";
+$text_servername="Servername";
+$text_playername="Spielernick";
+$text_map="Karte";
+$text_player="Spieler";
+$text_gametype="Spieltyp";
+$text_playerlist="Spielerliste";
+$text_serverlist="Serverliste";
+$text_playercount1="Es befinden sich ";
+$text_playercount2=" Spieler auf den aufgeführten Servern.";
+
+$text_greenscore="Punkte Grünes-Team";
+$text_redscore="Punkte Rotes-Team";
+$text_DiffLevel="Schwierigkeitsgrad";
+$text_CamFirstP="Ego-Kamera";
+$text_Cam3rdP="Externe Kamera";
+$text_CamFree3rdP="Freie externe Kamera";
+$text_CamGhost="Geisterkamera";
+$text_CamFadeToBlack="Keine Todeskamera";
+$text_CamTeamOnly="Nur Team Kamera";
+$text_SpamThreshold="Spam Sperre";
+$text_ChatLockDuration="Spam Sperrdauer";
+$text_VoteBcMaxFreq="Vote Zeitsperre";
+$text_roundtime="Rundenzeit";
+$text_offmapch="Offline oder im Kartenwechsel";
+$text_servrestkit="Ausrüstungsbeschränkungen";
+$text_showrestkit="Zeige Ausrüstungsbeschränkungen";
+$text_waitforstart="Warten auf Start";
+$text_remaintime="Verbleibende Zeit";
+$text_currentround="Aktuelle Runde";
+$text_servertime="Serverzeit";
+$text_serverheader="Raven-Shield Server-Status";
+$text_serverinfo="Server Informationen";
+$text_serverjoin=">>>>Diesem Server beitreten!<<<";
+$text_adress="IP-Adresse";
+$text_actmap="Aktuelle Karte";
+$text_version="Version";
+$text_round="Runde";
+$text_rounds="Runden";
+$text_password="Passwort";
+$text_svrsets="Server Einstellungen";
+$text_ffpw="Force FPW";
+$text_ff="Eigenes Feuer";
+$text_bombtime="Bomben Timer";
+$text_autoteam="Autoteam";
+$text_radar="Radar";
+$text_tbr="Zeit zwischen Runden";
+$text_teamnames="Team-Namen";
+$text_terrorcount="Anzahl Terroristen";
+$text_rotatemap="Karte bei Erfolg wechseln";
+$text_aiback="KI-Unterstützung";
+$text_penalty="TK-Strafe";
+$text_playerinfo="Spieler Informationen";
+$text_timeos="ZaSvr";
+$text_pingts="Ping";
+$text_kills="K";
+$text_deaths="D";
+$text_npo="Kein Spieler auf diesem Server";
+$text_maplist="Kartenliste";
+$text_backtolist="zurück zur Serverliste";
+$text_offline['0']="Der Server auf IP:";
+$text_offline['1']=" mit BeaconPort:";
+$text_offline['2']=' scheint down zu sein!<br><br>Oder der Server befindet sich gerade im Kartenwechsel.<br>Versuchen Sie "Aktualisieren" bei Ihrem Browser.';
+
+$text_displayorder=	"Anzeige Reihenfolge";
+$text_comment="Kommentar";
+$text_edit="ändern";
+$text_delete="löschen";
+$text_back="zurück";
+
+$text_restkit_nodata="Keine Antwort: Der Server ist offline oder das Feature ist nicht unterstützt!";
+$text_restkit_tabletitle="gesperrt:";
+$text_restkit_tabletitleadd="sperrbar:";
+
+$kittype['0']="Maschinenenpistolen";
+$kittype['1']="Schrotgewehre";
+$kittype['2']="Sturmgewehre";
+$kittype['3']="Leichte Maschinengewehre";
+$kittype['4']="Scharfschützengewehre";
+$kittype['5']="Pistolen";
+$kittype['6']="Automatische Pistolen";
+$kittype['7']="Primäre Waffenausrüstung";
+$kittype['8']="Sekundäre Waffenausrüstung";
+$kittype['9']="Verschiedene Ausrüstungen";
+
+$text_all="Alle";
+
+$weapons['none']="keine";
+$weapons['R6Description.R6DescSubCZ61']="CZ-61 (7.65mm)";
+$weapons['R6Description.R6DescSubM12S']="M12 (9mm)";
+$weapons['R6Description.R6DescSubMac119']="Mac 11/9 (9mm)";
+$weapons['R6Description.R6DescSubMicroUzi']="Micro-Uzi (9mm)";
+$weapons['R6Description.R6DescSubMP510A2']="MP5/10A2 (10mm)";
+$weapons['R6Description.R6DescSubMP5A4']="MP5A4 (9mm)";
+$weapons['R6Description.R6DescSubMP5KPDW']="MP5K PDW (9mm)";
+$weapons['R6Description.R6DescSubMP5SD5']="MP5SD5 (9mm)";
+$weapons['R6Description.R6DescSubMTAR21']="MTAR-21 (9mm)";
+$weapons['R6Description.R6DescSubP90']="P90 (5.7mm)";
+$weapons['R6Description.R6DescSubSR2']="SR-2 (9mm)";
+$weapons['R6Description.R6DescSubTMP']="TMP (9mm)";
+$weapons['R6Description.R6DescSubUMP']="UMP (Kaliber .45)";
+$weapons['R6Description.R6DescSubUzi']="Uzi (9mm)";
+$weapons['R6Description.R6DescShotgunM1']="M1 (12g)";
+$weapons['R6Description.R6DescShotgunSPAS12']="SPAS-12 (12g)";
+$weapons['R6Description.R6DescShotgunUSAS12']="USAS-12 (12g)";
+$weapons['R6Description.R6DescAssaultAK47']="AK-47 (7.62mm)";
+$weapons['R6Description.R6DescAssaultAK74']="AK-74 (5.45mm)";
+$weapons['R6Description.R6DescAssaultAUG']="AUG (5.56mm)";
+$weapons['R6Description.R6DescAssaultFAL']="FAL (7.62mm)";
+$weapons['R6Description.R6DescAssaultFAMASG2']="FAMAS G2 (5.56mm)";
+$weapons['R6Description.R6DescAssaultFNC']="FNC (5.56mm)";
+$weapons['R6Description.R6DescAssaultG36K']="G36K (5.56mm)";
+$weapons['R6Description.R6DescAssaultG3A3']="G3A3 (7.62mm)";
+$weapons['R6Description.R6DescAssaultGalilARM']="Galil ARM (5.56mm)";
+$weapons['R6Description.R6DescAssaultL85A1']="L85A1 (5.56mm)";
+$weapons['R6Description.R6DescAssaultM14']="M14 (7.62mm)";
+$weapons['R6Description.R6DescAssaultM16A2']="M16A2 (5,56mm)";
+$weapons['R6Description.R6DescAssaultM4']="M4 (5.56mm)";
+$weapons['R6Description.R6DescAssaultM82']="M82 (5.56mm)";
+$weapons['R6Description.R6DescAssaultTAR21']="TAR-21 (5.56mm)";
+$weapons['R6Description.R6DescAssaultType97']="Type 97 (5.56mm)";
+$weapons['R6Description.R6DescLMG21E']="21E (7.62mm)";
+$weapons['R6Description.R6DescLMG23E']="23E (5,56mm)";
+$weapons['R6Description.R6DescLMGM249']="M249 (5.56mm)";
+$weapons['R6Description.R6DescLMGM60E4']="M60E4 (7.62mm)";
+$weapons['R6Description.R6DescLMGRPD']="RPD (7.62mm)";
+$weapons['R6Description.R6DescSniperAWCovert']="AW Covert (7.62mm)";
+$weapons['R6Description.R6DescSniperDragunov']="Dragunov (7.62mm)";
+$weapons['R6Description.R6DescSniperM82A1']="M82A1 (Kal .50)";
+$weapons['R6Description.R6DescSniperPSG1']="PSG-1 (7,62mm)";
+$weapons['R6Description.R6DescSniperSSG3000']="SSG-3000 (7.62mm)";
+$weapons['R6Description.R6DescSniperVSSVintorez']="VSS Vintorez (9mm)";
+$weapons['R6Description.R6DescSniperWA2000']="WA-2000 (Kal .30)";
+$weapons['R6Description.R6DescPistolAPArmy']="AP Army (5,7mm)";
+$weapons['R6Description.R6DescPistolDesertEagle357']="Desert Eagle (Kal .357)";
+$weapons['R6Description.R6DescPistolDesertEagle50']="Desert Eagle (Kal .50)";
+$weapons['R6Description.R6DescPistolMk23']="Mk23 (Kal .45)";
+$weapons['R6Description.R6DescPistolP228']="P-228 (9mm)";
+$weapons['R6Description.R6DescPistolSPP']="SPP (9mm)";
+$weapons['R6Description.R6DescPistolUSP']="USP (Kal .40)";
+$weapons['R6Description.R6DescPistolCZ61']="CZ-61 (7,65mm)";
+$weapons['R6Description.R6DescPistolMac119']="Mac 11/9 (9mm)";
+$weapons['R6Description.R6DescPistolMicroUzi']="Micro-Uzi (9mm)";
+$weapons['R6Description.R6DescPistolSR2']="SR-2 (9mm)";
+$weapons['ASDescription.R6DescSubSpectreM4']="SM4 CQB (9mm)";
+$weapons['ASDescription.R6DescShotgunM4Super90']="M1014 (12g)";
+$weapons['ASDescription.R6DescAssaultOTs14']="OTs-14 Groza (9mm)";
+$weapons['ASDescription.R6DescAssaultG3KA4']="G3KA4 (7.62mm)";
+$weapons['ASDescription.R6DescLMGM240G']="M240G (7.62mm)";
+$weapons['ASDescription.R6DescSniperSL82']="SL8-1 (5.56mm)";
+$weapons['ASDescription.R6DescPistol93R']="M93R (9mm)";
+$weapons['CMAG']="Magazin mit größerer Kapazität";
+$weapons['MINISCOPE']="Mini-Zielfernrohr";
+$weapons['SILENCER']="Schalldämpfer";
+$weapons['THERMALSCOPE']="Infrarot-Zielfernrohr";
+$weapons['BREACHINGCHARGEGADGET']="Türladung";
+$weapons['CLAYMOREGADGET']="Claymore-Mine";
+$weapons['DIFFUSEKIT']="Spreng-Kit";
+$weapons['ELECTRONICKIT']="Elektronik-Kit";
+$weapons['FALSEHBGADGET']="Herzschlag-Simulator";
+$weapons['FLASHBANGGADGET']="Blendgranate";
+$weapons['FRAGGRENADEGADGET']="Splittergranate M61";
+$weapons['GASMASK']="Gasmaske";
+$weapons['HBSGADGET']="Herzschlag-Sensor";
+$weapons['HBSJAMMERGADGET']="HS-Sensor-Störsender";
+$weapons['HBSSAJAMMERGADGET']="Fester HS-Störsender";
+$weapons['LOCKPICKKIT']="Schloss-Kit";
+$weapons['PRIMARYMAGS']="Primär-Zusatzmagazine";
+$weapons['REMOTECHARGEGADGET']="Sprengsatz mit Fernzünder";
+$weapons['SECONDARYMAGS']="Sekundär-Zusatzmagazine";
+$weapons['SMOKEGRENADEGADGET']="Rauchgranate";
+$weapons['TEARGASGRENADEGADGET']="Tränengasgranate";
+
+$text_changegamemode="wechsel Gamemodus";
+$text_notranked="Der Spieler ist nicht unter den Top 10000.";
+
+$alivetext['0']="gesund";
+$alivetext['1']="verwundet";
+$alivetext['2']="eleminiert von: ";
+$alivetext['3']="spät beigetreten";
+$text_playerdetailstitle="Klicke für Spielerdetails";
+$text_ubiladdertitle="Klicke für Ubiladder-Rang des Spielers";
+$text_non4admin="N4Admin nicht installiert auf Server!";
+$text_norestkit="Ausrüstungsb. nicht unterstützt!";
+$text_customgame="Eigenes Spiel";
+
+$text_ladderoff="Die Ubiladder ist z.Zt. nicht erreichbar!";
+$text_laddtry="Versuche Seite direkt zu öffnen";
+$text_killedby="Eleminiert von:";
+
+$text_playerdetails="Spielerdetails";
+
+$modetext['0']="Gesamt";
+$modetext['1']="Überleben";
+$modetext['2']="Team-Überleben";
+$modetext['3']="Bombe";
+$modetext['4']="Geiselrettung";
+$modetext['5']="Pilot";
+
+$text_download="Download";
+$text_link="Link";
+$text_refresh="Aktualisieren";
+
+$text_showhide['0']="Anzeigen";
+$text_showhide['1']="Ausblenden";
+
+$text_number="Nr.";
+$text_dedi="Spezieller Server";
+$text_motd="Nachricht des Tages";
+
+$text_noconnect="Keine Verbindung!";
+$text_notravenshield="Nicht RavenShield!";
+
+$text_pd="Spielerdetails";
+$text_pdnick="Nick";
+$text_pdkills="Kills";
+$text_pddeaths="Tode";
+$text_pdbfired="Kugeln gefeuert";
+$text_pdbhits="Kugeln getroffen";
+$text_pdacc="Treffer";
+
+$text_ubilglobal="Globaler Rang";
+$text_ubilskill="Skill";
+$text_ubilkills="Kills";
+$text_ubildeaths="Tode";
+$text_ubilkdratio="Kills/Tode Rate";
+$text_ubilroundsplayed="Runden gespielt";
+$text_ubiltimeplayed="Zeit gespielt";
+
+$text_statschooseserver="Wähle Spielerstatistik von Server";
+$text_statsgamemode="Wähle Gamemodus";
+$text_onserver="Auf Server";
+$text_statsmain="zurück zum Hauptmenu";
+$text_statstitle="Raven Shield Spieler Statistik Aufzeichnung";
+$text_textsearchforubi="Suche nach Ubinamen auf diesem Server (% für Wildcard):";
+$text_textsearchfornick="Suche nach Nicknamen auf diesem Server (% für Wildcard):";
+$text_serveremtpyplays="Leerer-Server";
+$helptext_statsenterubiname="Gebe Ubinamen ein  (  Wildcard Benutzung  %InName%  StartName%  %EndName  )";
+$helptext_statsenternickname="Gebe Nicknamen ein   (  Wildcard Benutzung  %InName%  StartName%  %EndName  )";
+
+$text_laddertitle="Raven Shield Spieler Statistik Ladder";
+$text_ladderlastupdated="Ladder letztes Update:";
+$text_interval="Interval:";
+$text_gamemodetext="Gamemodus";
+$text_rank="Rang";
+$text_score="Punkte";
+$text_site="Seite";
+$text_maintitle="Serverliste & Spielerstatistik Hauptmenü";
+$text_mainmenu="Hauptmenü";
+$text_statschooseladder="Wähle Ladder von Server";
+$text_usednicks="benutzte Nicks";
+$text_nostatslogged['0']="Keine ";
+$text_nostatslogged['1']="-Statistik für diesen Spieler aufgezeichnet!";
+
+$text_serverisfull="Server ist VOLL!";
+$text_showbanlist="Zeige Banliste";
+$text_gender="G";
+$text_roundsplayed="RP";
+
+$text_serverbanlist="Server-Banliste";
+$text_overallstats="Server gesamt Statistik";
+
+?>

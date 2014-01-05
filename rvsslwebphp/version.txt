@@ -1,0 +1,114 @@
+Raven Shield Serverlist Version v1.12as
+
+Known Issues:
+-----------------------------------------------
+1) Ubiladder no results/displays offline -> php global config "allow_url_fopen" must set to on!
+-----------------------------------------------
+
+History:
+-----------------------------------------------
+Version v1.12as (beta)
+
+Added support for AThena Sword features
+
+-----------------------------------------------
+Version 1.12 (beta)
+
+N4Admin-Messenger configurable via web
+
+Some fixes
+
+french updated
+
+-----------------------------------------------
+Version 1.11 (beta)
+
+Some small fixes
+
+Added Messenger
+
+Added current Map(nr) marked
+
+-----------------------------------------------
+Version 1.10 (beta)
+
+Added Language dutch and portoguese
+
+Added Stats-Logging / Ladder (requires urlPost.u on posting Server!)
+
+Added Main Menu
+
+Added "restart Round"
+
+Fixes for high error_reporting (2047) on php
+
+ONLY Support for Ravenshield v1.50+ with N4Admin-UDPBeacon 2.0 !!!
+
+Serverlist CANT display non modded Servers without N4Admin anymore!
+
+-----------------------------------------------
+Version 1.04 (not released)
+
+Added Delete Maps 2 to End ("Del.M.2-x") at Server-Administration (appears when 3+ Maps in List)
+
+css-files enhanced
+
+Added show/hide Function at Serverlist->Playerlist
+
+Added Refresh at Serverlist
+
+Languages enhanced
+
+Added language Support for spanish
+
+Added Style "dj"
+
+Added Style "red"
+
+Enhanced rvs.rar for Browser-Start-Protocol (Win98/me/2K)
+
+36 new or updated Map-Images
+
+Fixed Problems with Playerdetails and PB-Screenshot @ Nick with wild ASCII-Chars
+
+Added Mapimages-Show/Check @ Serverlist-Admin
+
+-----------------------------------------------
+Version 1.03
+
+Added language Support for french
+
+Fixed a Bug with win32, changed code back to fread/fwrite because fgets/fputs makes Problems with win32
+
+Added Show/Hide Function at Serverdisplay
+
+Added Support for translate DNS from Serverlist-Entry to IP
+
+-----------------------------------------------
+Version 1.02
+
+Fixed possible Error "all Server Offline", socket_set_blocking override to True available in config.inc.php
+Default: $socket_blocking_use=False;  only change to True if you get Errors!
+
+PHP-Setting 'register_globals' to ON, should not be required anymore 
+
+Error-Handling improved.
+
+Added header.php
+
+Some small Features added:
+-Titletext on "Alive-Dot", Nickname, UbiName
+-Visitors can select Language (Flags)
+
+Added "Killed by" in Server-Display
+
+-----------------------------------------------
+Version 1.0
+
+First Release
+
++Bugfix1 (PBCommands)
++Bugfix2 (adjustable socket_timeout for slower webspaces -> config.inc.php)
+default is 1 second, try 2 or higher if some Settings are missing in yours sometimes)
+
+-----------------------------------------------

@@ -1,0 +1,633 @@
+<html xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:w="urn:schemas-microsoft-com:office:word"
+xmlns:st1="urn:schemas-microsoft-com:office:smarttags"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=iso-8859-1">
+<meta name=ProgId content=Word.Document>
+<meta name=Generator content="Microsoft Word 11">
+<meta name=Originator content="Microsoft Word 11">
+<link rel=File-List href="readme_files/filelist.xml">
+<title>Raven Shield Remote Admin Mod - Help</title>
+<o:SmartTagType namespaceuri="urn:schemas-microsoft-com:office:smarttags"
+ name="PlaceType"/>
+<o:SmartTagType namespaceuri="urn:schemas-microsoft-com:office:smarttags"
+ name="PlaceName"/>
+<o:SmartTagType namespaceuri="urn:schemas-microsoft-com:office:smarttags"
+ name="place"/>
+<!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>Neil Popplewell</o:Author>
+  <o:LastAuthor>Neil Popplewell</o:LastAuthor>
+  <o:Revision>2</o:Revision>
+  <o:TotalTime>1</o:TotalTime>
+  <o:Created>2004-10-26T14:45:00Z</o:Created>
+  <o:LastSaved>2004-10-26T14:46:00Z</o:LastSaved>
+  <o:Pages>1</o:Pages>
+  <o:Words>2084</o:Words>
+  <o:Characters>11884</o:Characters>
+  <o:Company>-</o:Company>
+  <o:Lines>99</o:Lines>
+  <o:Paragraphs>27</o:Paragraphs>
+  <o:CharactersWithSpaces>13941</o:CharactersWithSpaces>
+  <o:Version>11.5606</o:Version>
+ </o:DocumentProperties>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:SpellingState>Clean</w:SpellingState>
+  <w:GrammarState>Clean</w:GrammarState>
+  <w:ValidateAgainstSchemas/>
+  <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
+  <w:IgnoreMixedContent>false</w:IgnoreMixedContent>
+  <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
+  <w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel>
+ </w:WordDocument>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:LatentStyles DefLockedState="false" LatentStyleCount="156">
+ </w:LatentStyles>
+</xml><![endif]--><!--[if !mso]><object
+ classid="clsid:38481807-CA0E-42D2-BF39-B33AF135CC4D" id=ieooui></object>
+<style>
+st1\:*{behavior:url(#ieooui) }
+</style>
+<![endif]-->
+<style>
+<!--
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-parent:"";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+p
+	{font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+span.SpellE
+	{mso-style-name:"";
+	mso-spl-e:yes;}
+span.GramE
+	{mso-style-name:"";
+	mso-gram-e:yes;}
+@page Section1
+	{size:595.3pt 841.9pt;
+	margin:72.0pt 90.0pt 72.0pt 90.0pt;
+	mso-header-margin:35.4pt;
+	mso-footer-margin:35.4pt;
+	mso-paper-source:0;}
+div.Section1
+	{page:Section1;}
+-->
+</style>
+<!--[if gte mso 10]>
+<style>
+ /* Style Definitions */
+ table.MsoNormalTable
+	{mso-style-name:"Table Normal";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-parent:"";
+	mso-padding-alt:0cm 5.4pt 0cm 5.4pt;
+	mso-para-margin:0cm;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman";
+	mso-ansi-language:#0400;
+	mso-fareast-language:#0400;
+	mso-bidi-language:#0400;}
+</style>
+<![endif]-->
+</head>
+
+<body lang=EN-AU link=blue vlink=blue style='tab-interval:36.0pt'>
+
+<div class=Section1>
+
+<p>N4Admin provides remote administration services for Raven Shield v1.60+<br
+style='mso-special-character:line-break'>
+<![if !supportLineBreakNewLine]><br style='mso-special-character:line-break'>
+<![endif]></p>
+
+<p>Copyright © 2004 Neil Popplewell.<span style='mso-spacerun:yes'>  </span>All
+rights reserved. <br style='mso-special-character:line-break'>
+<![if !supportLineBreakNewLine]><br style='mso-special-character:line-break'>
+<![endif]></p>
+
+<p><strong>Introduction:</strong></p>
+
+<p>There are two tools included in this package the Remote Admin/Live Server
+Statistics and an IRC match bot which broadcasts a match live on any IRC
+network and channel of your choice. These administrative tools were created by
+Neo4E656F to help Raven Shield server administrations.</p>
+
+<p><em>Important information for previous users:</em></p>
+
+<p>A lot of things have changed in this new release and both the beacon and the
+<span class=SpellE>irc</span> bot and they need to be configured, they are no
+longer called part of the &quot;TAT&quot; <span class=GramE>collection</span>
+because unfortunately that clan does not exist anymore.</p>
+
+<p><o:p>&nbsp;</o:p></p>
+
+<p><b>Getting started:</b></p>
+
+<p>Copy N4Admin.u to the system folder in your dedicated/SA or Raven Shield
+folder.</p>
+
+<p><strong>Setting up the Remote Admin and Live Server Statistic:</strong></p>
+
+<p>You will need to browse to your Raven Shield directory (or your SA server
+directory) and proceed to the &quot;Mod&quot; <span class=GramE>folder,</span>
+by default this will be located at C:\Program Files\Red Storm Entertainment\<span
+class=SpellE>RavenShield</span>\Mods. Next you will need to open up &quot;<span
+class=SpellE>RavenShield.mod</span>&quot;, or <span class=SpellE>AthenaSword.mod</span>
+when it becomes <span class=SpellE>avaliable</span>, and scroll down to [<span
+class=SpellE>Engine.GameEngine</span>] here you will see a line that reads
+&quot;<span class=SpellE>ServerActors</span>=<span class=SpellE>IpDrv.UdpBeacon</span>&quot;
+we must comment out this line because we do not want to be running two UDP
+beacons, so we add a &quot;;&quot; <span class=SpellE>infront</span> of the
+line so that line becomes &quot;;<span class=SpellE>ServerActors</span>=<span
+class=SpellE>IpDrv.UdpBeacon</span>&quot;. NB: If you used my previous mod <span
+class=SpellE>TATIPDrv</span> you will need to comment out the following line
+&quot;<span class=SpellE>ServerActors</span>=<span class=SpellE>TATIpDrv.UdpBeaconEx</span>&quot;
+as well. Straight underneath this line we now add &quot;<span class=SpellE>ServerActors</span>=N4Admin.UdpBeaconEx&quot;,
+so the entire section should now look something like this:</p>
+
+<p>[<span class=SpellE>Engine.GameEngine</span><span class=GramE>]</span><br>
+<span class=SpellE>CacheSizeMegs</span>=32<br>
+<span class=SpellE>UseSound</span>=True<br>
+;<span class=SpellE>ServerActors</span>=<span class=SpellE>IpDrv.UdpBeacon</span><br>
+<span class=SpellE>ServerActors</span>=N4Admin.UdpBeaconEx<br>
+<span class=SpellE>ServerPackages</span>=<span class=SpellE>GamePlay</span><br>
+<span class=SpellE>ServerPackages</span>=R6Abstract<br>
+<span class=SpellE>ServerPackages</span>=R6Engine<br>
+<span class=SpellE>ServerPackages</span>=R6Characters<br>
+<span class=SpellE>ServerPackages</span>=R6GameService<br>
+<span class=SpellE>ServerPackages</span>=R6Game<br>
+<span class=SpellE>ServerPackages</span>=R61stWeapons<br>
+<span class=SpellE>ServerPackages</span>=R6Weapons<br>
+<span class=SpellE>ServerPackages</span>=R6WeaponGadgets<br>
+<span class=SpellE>ServerPackages</span>=R63rdWeapons</p>
+
+<p>You will need to open up your ravenshield.ini in your system folder (note if
+you start your server using the &quot;<span class=SpellE>ucc</span> <span
+class=SpellE>ini</span>=somefile.ini&quot; you will need to place this
+configuration somefile.ini instead</p>
+
+<p>Next we should ensure that we know our <span class=SpellE>ServerBeaconPort</span>,
+the default is 8777, however if that port is in use (say by another server) it
+will by default use the next <span class=SpellE>avaliable</span> port, hence it
+will use 8778 or 8779 if 8778 is not <span class=SpellE>avaliable</span>. Look
+in ravenshield.ini for the section [<span class=SpellE>IpDrv.UdpBeacon</span>]
+and note <span class=SpellE>ServerBeaconPort</span>=8777, this is what you need
+to <span class=GramE>change,</span> it will be the port you use when you set up
+your website <strong>NOT YOUR <st1:place w:st="on"><st1:PlaceName w:st="on">GAME</st1:PlaceName>
+ <st1:PlaceType w:st="on">PORT.</st1:PlaceType></st1:place> </strong>You may
+need to talk to your admin about firewall configurations before changing this
+port. Afterwards the section should look like this:</p>
+
+<p>[<span class=SpellE>IpDrv.UdpBeacon</span><span class=GramE>]</span><br>
+<span class=SpellE>DoBeacon</span>=True<br>
+<span class=SpellE>ServerBeaconPort</span>=8777<br>
+<span class=SpellE>BeaconPort</span>=9777<br>
+<span class=SpellE>BeaconTimeout</span>=10.000000</p>
+
+<p>Where 8777is some number of your own choice, leaving it at 8777 is fine if
+you are only going to be running one server on the machine and I will be
+assuming from now on that it is running on 8777. (NB: Currently there is a bug
+in <span class=SpellE>ubi's</span> code you must have at least one server
+running on 8777 as it always assumes the <span class=SpellE>serverbeaconport</span>
+is 8777 which causes a lot of problems that I will not go into).</p>
+
+<p>Now all your servers will run the extended UDP beacon and will display all
+stats when using a <span class=SpellE>compatiable</span> viewer (see below for
+included asp and <span class=SpellE>php</span> viewers for your website).
+However you will still need to set a password if you wish to use the Remote
+Admin feature you will need to set a password as well. While you are still in
+your ravenshield.ini (or somefile.ini) place the following section:</p>
+
+<p>[N4Admin.UDPBeaconEx<span class=GramE>]</span><br>
+<span class=SpellE>AdminPassword</span>=<span class=SpellE>someAdminPassword</span></p>
+
+<p><span class=GramE>Where &quot;<span class=SpellE>someAdminPassword</span>&quot;
+is some unique admin password that is set by you, noting that passwords are
+case sensitive.</span> Your Remote Admin and Liver Server Statistics are now
+configured, your next step is to set up a website or redirect to one of our <span
+class=SpellE>premade</span> ones, noting that making your own would be much
+better for all parties.</p>
+
+<p><strong>Setting up your website:</strong></p>
+
+<p><strong>Installing the IRC Match Bot:</strong></p>
+
+<p>Open <span class=SpellE>RavenShield.mod</span> and go to [<span
+class=SpellE>Engine.GameEngine</span>] and <span class=GramE>Add</span> the
+line N4Admin.IRCBot so now it should look something like this:</p>
+
+<p>[<span class=SpellE>Engine.GameEngine</span><span class=GramE>]</span><br>
+<span class=SpellE>CacheSizeMegs</span>=32<br>
+<span class=SpellE>UseSound</span>=True<br>
+;<span class=SpellE>ServerActors</span>=<span class=SpellE>IpDrv.UdpBeacon</span><br>
+<span class=SpellE>ServerActors</span>=N4Admin.UdpBeaconEx<br>
+<span class=SpellE>ServerActors</span>=N4Admin.IRCBot&nbsp;<br>
+<span class=SpellE>ServerPackages</span>=<span class=SpellE>GamePlay</span><br>
+<span class=SpellE>ServerPackages</span>=R6Abstract<br>
+<span class=SpellE>ServerPackages</span>=R6Engine<br>
+<span class=SpellE>ServerPackages</span>=R6Characters<br>
+<span class=SpellE>ServerPackages</span>=R6GameService<br>
+<span class=SpellE>ServerPackages</span>=R6Game<br>
+<span class=SpellE>ServerPackages</span>=R61stWeapons<br>
+<span class=SpellE>ServerPackages</span>=R6Weapons<br>
+<span class=SpellE>ServerPackages</span>=R6WeaponGadgets<br>
+<span class=SpellE>ServerPackages</span>=R63rdWeapons</p>
+
+<p>Now open up RavenShield.ini (or the <span class=SpellE>ini</span> file
+specified by <span class=SpellE>ucc</span> server -<span class=SpellE>ini</span>=someinifile.ini)
+and add the following lines to the bottom of it:</p>
+
+<p>[N4Admin.IRCUpLink<span class=GramE>]</span><br>
+Server=<st1:place w:st="on"><st1:PlaceName w:st="on">irc.progameplayer.com</st1:PlaceName><br>
+<st1:PlaceType w:st="on">Port</st1:PlaceType></st1:place>=6667<br>
+Password=<br>
+<span class=SpellE>NickName</span>=<span class=SpellE>rvsbot</span><br>
+<span class=SpellE>AlternateNickName</span>=<span class=SpellE>neorvsbot</span><br>
+Channel=#<span class=SpellE>rvsbots</span><br>
+<span class=SpellE>ChannelKey</span>=<br>
+<span class=SpellE>Adminpassword</span>=<span class=SpellE>Your_Admin_Password</span></p>
+
+<p>Of course you should change all those settings to suit your needs (see the
+Advance IRC Match Bot settings for the meaning of these and other settings).</p>
+
+<p><b>Configuring flood protection for your IRC Bot:</b></p>
+
+<p>The following lines need to be added to the end of your RavenShield.ini (or
+somefile.ini):</p>
+
+<p>[N4Admin.FloodProtection<span class=GramE>]</span><br>
+<span class=SpellE>MessageDelay</span>=2<br>
+<span class=SpellE>MaxQueueSize</span>=40</p>
+
+<p>The <span class=SpellE>MessageDelay</span> is the amount of time in seconds
+between each message that is sent from the IRC Bot, the <span class=SpellE>MaxQueueSize</span>
+is the maximum number of messages allowed to be in the queue, this is to
+prevent excess lag.&nbsp; All messages added to a full queue are not sent to
+the <span class=GramE>server,</span> hence if your queue size is too small for
+the <span class=SpellE>MessageDelay</span> then you will lose some data.&nbsp;
+To calculate the maximum delay <span class=SpellE>MaxDelay</span>=<span
+class=SpellE>MessageDelay</span>*<span class=SpellE>MaxQueueSize</span> so as
+you can see the default maximum delay is 80 seconds.&nbsp; If you are having
+problems with your bot flooding, lagging or not sending message you can also
+try to disable certain messages using settings found in the Advance IRC Bot
+settings section of this document.</p>
+
+<p><b>IRC Admin commands:</b></p>
+
+<p>/CTCP <span class=SpellE>bot_nick_name</span> PLAYERINFO <span class=SpellE>your_adminpassword</span>
+<span class=SpellE>player_nickname</span><br>
+/CTCP <span class=SpellE>bot_nick_name</span> PLAYERINFOUBI <span class=SpellE>your_adminpassword</span>
+<span class=SpellE>player_ubi_id</span><br>
+/CTCP <span class=SpellE>bot_nick_name</span> KICK <span class=SpellE>your_adminpassword</span>
+<span class=SpellE>player_nickname</span><br>
+/CTCP <span class=SpellE>bot_nick_name</span> KICKUBI <span class=SpellE>your_adminpassword</span>
+<span class=SpellE>player_ubi_id</span><br>
+/CTCP <span class=SpellE>bot_nick_name</span> BAN <span class=SpellE>your_adminpassword</span>
+<span class=SpellE>player_nickname</span><br>
+/CTCP <span class=SpellE>bot_nick_name</span> BANUBI <span class=SpellE>your_adminpassword</span>
+<span class=SpellE>player_ubi_id</span><br>
+/CTCP <span class=SpellE>bot_nick_name</span> SAY <span class=SpellE>your_adminpassword</span>
+<span class=SpellE>message_to_send</span><br>
+/CTCP <span class=SpellE>bot_nick_name</span> MAP <span class=SpellE>your_adminpassword</span>
+<span class=SpellE>map_number</span> reason<br>
+/CTCP <span class=SpellE>bot_nick_name</span> RESTARTROUND <span class=SpellE>your_adminpassword</span>
+reason<br>
+/CTCP <span class=SpellE>bot_nick_name</span> RESTARTMATCH <span class=SpellE>your_adminpassword</span>
+reason<br>
+/CTCP <span class=SpellE>bot_nick_name</span> RESTARTSERVER <span class=SpellE>your_adminpassword</span>
+reason<br>
+/CTCP <span class=SpellE>bot_nick_name</span> NICK <span class=SpellE>your_adminpassword</span>
+<span class=SpellE>New_Bot_IRC_Nickname</span><br>
+/CTCP <span class=SpellE>bot_nick_name</span> RAW <span class=SpellE>your_adminpassword</span>
+<span class=SpellE>your_raw_irc_command</span><br>
+eg. /CTCP <span class=SpellE>bot_nick_name</span> RAW <span class=SpellE>your_adminpassword</span>
+PRIVMSG ^<span class=SpellE><span class=GramE>Kempi</span></span><span
+class=GramE> :Hi</span> there</p>
+
+<p>A much easier way of using the IRC Admin commands is to use ^<span
+class=SpellE>Kempi's</span> <span class=SpellE>mIRC</span> script.</p>
+
+<p><b>^<span class=SpellE>Kempi's</span> <span class=SpellE>mIRC</span> script:</b></p>
+
+<p><span class=SpellE><span class=GramE>RvS</span></span><span class=GramE> IRC
+by ^<span class=SpellE>Kempi</span> and TAT-Neo<br>
+<br>
+Installation.</span><br>
+To loads bot in IRC place into your main IRC folder.<br>
+In <span class=SpellE>mIRC</span> type this /load -<span class=SpellE>rs</span>
+<span class=SpellE>rvsirc.mrc</span><br>
+<br>
+Once script is loaded you need to right click the Bot<br>
+Go to Server Commands &gt; Set Options &gt; Set Bot w/right click<br>
+And Server Commands &gt; Set Options &gt; Set Password<br>
+<br>
+Once that is done you will have full access to the Bot and its commands.<br>
+<br>
+<span class=GramE>Features.</span><br>
+<br>
+Server Commands &gt; Server Stuff<br>
+Say = Sends message to server from you.<br>
+Bot Say = Sends message to server from the Bot<span class=GramE>.</span><br>
+Show Scores = Shows the Scores and Player info to channel.<br>
+Restart Round = Restarts the round.<br>
+Restart Round w/reason = Restarts the round with a reason.<br>
+Restart Match = Restarts the match.<br>
+Restart Match w/reason = Restarts the match with a reason.<br>
+Restart Server = Restarts the server.<br>
+Restart Server w/reason = Restarts the server with reason.<br>
+Change Map = Changes map must know map number.<br>
+Kick Name = Kicks a player by name copy and paste name before.<br>
+Ban Name = banns a player by name copy and paste name before.<br>
+<br>
+Server Commands &gt; Bot Commands<br>
+Say Chan = Message the IRC <span class=SpellE>chan</span> from Bot<span
+class=GramE>.</span><br>
+Say User = Message a user in IRC from Bot.<br>
+Action Chan = Send action to Chan in IRC /me.&nbsp;<br>
+Action User = Send action to user in IRC /me.<br>
+Join Chan = Joins the <span class=SpellE>chan</span> in IRC that you say.<br>
+Part Chan = Parts the <span class=SpellE>chan</span> in IRC that you say.<br>
+Change Bots Nick = Changed Bots name - Can be buggy.<br>
+<br>
+Server Commands &gt; Timed Messages<br>
+Start Message = Start Auto message to server. Also lets you set time in
+seconds.<br>
+Stop Message = Stops Auto message to server.<br>
+Set Message = Sets message to send to server stored in an <span class=SpellE>ini</span>
+file.<br>
+<br>
+Server Commands &gt; Slaps<br>
+Slaps = Slaps who you right click.&nbsp;<br>
+<br>
+Server Commands &gt; Options<br>
+Set Password = Stores password to your <span class=SpellE>ini</span><br>
+Set Bot Name = Stores <span class=SpellE>Bot's</span> name to <span
+class=SpellE>ini</span> you can store the bot without it being there.<br>
+Set Bot Name w/right click = Stores Bot with a right click.<br>
+<br>
+Join messages.<br>
+Open the scrip in text editor and follow instructions at bottom.<br>
+Default is set to JOHNDOE when they join it asks them to change name, Need to
+edit script to make active.<br>
+<br>
+Comments questions and bugs email Kempi@3dmax.org</p>
+
+<p><b>Advance IRC Match Bot settings:</b></p>
+
+<p>Go back to RavenShield.ini (or someinifile.ini) and under
+[N4Admin.IRCUpLink] you can add any or all of the following lines (note if you
+add all these lines be aware that you'll have to delete the lines that are
+repeated. It is also ok if you copy and paste the lines starting with
+&quot;;&quot; into the <span class=SpellE>ini</span> file because these lines
+are ignored by Raven Shield):</p>
+
+<p>;The next line <span class=SpellE>specifes</span> what the in game <span
+class=SpellE>botname</span> to be<br>
+<span class=SpellE>BotName</span>=IRC Bot<br>
+;The next line specifies the IRC server you wish to con<br>
+Server=irc.progameplayer.com<br>
+;IRC Server port<br>
+Port=6667<br>
+;IRC Server Password<br>
+Password=<br>
+;<span class=SpellE>Ident</span> you want your bot to have<br>
+<span class=SpellE>UserID</span>=<span class=SpellE>matchbot</span><br>
+;<span class=SpellE>Preffered</span> <span class=SpellE>irc</span> bot nickname<br>
+<span class=SpellE>NickName</span>=<span class=SpellE>rvsbot</span><br>
+;Alternate nickname<br>
+<span class=SpellE>AlternateNickName</span>=<span class=SpellE>ravenbot</span><br>
+;The <span class=SpellE>irc</span> channel you wish the bot the join<br>
+Channel=#<span class=SpellE>rvsbots</span><br>
+;The channel key<br>
+<span class=SpellE>ChannelKey</span>=<br>
+;Map change quit message for the bot<br>
+<span class=SpellE>MapChangeQuitMessage</span>=Map change, <span class=SpellE>brb</span><br>
+;The notice all people get when they join a channel that the bot is in<br>
+<span class=SpellE>JoinNotice</span>=I am a Raven Shield IRC match bot if you
+find me annoying please use /ignore, thankyou<br>
+;The <span class=SpellE>autojoin</span> on kick message, sent to the person who
+kicked the bot<br>
+<span class=SpellE>RejoinMessage</span>=I am a raven shield match bot, I will
+continue to auto-rejoin until you ban me<br>
+;The spam message you wish to send to the channel<br>
+<span class=SpellE>SpamMessage</span>=<span style='mso-special-character:footnote'><![if !supportFootnotes]><span
+style='font-size:12.0pt;font-family:"Times New Roman";mso-fareast-font-family:
+"Times New Roman";mso-ansi-language:EN-AU;mso-fareast-language:EN-AU;
+mso-bidi-language:AR-SA'>[1]</span><![endif]></span>Visit
+http://www.koalaclaw.com<br>
+;How often the spam message is sent<br>
+<span class=SpellE>ServerMessageDelay</span>=120.00<br>
+;True if you want to scores to be shown with the standard message (by default
+it is off but the scores are <span class=SpellE>stil</span> shown at the end of
+the round)<br>
+<span class=SpellE>ShowScores</span>=false<br>
+;True if you want the scores to be shown at the end of the round (not affected
+by <span class=SpellE>ShowScores</span>)<br>
+<span class=SpellE>ShowScoresAtRoundEnd</span>=true<br>
+;The following &quot;Show&quot; variables are to do with the message you want
+the <span class=SpellE>irc</span> bot to broadcast<br>
+<span class=SpellE>ShowDeathMessages</span>=true<br>
+<span class=SpellE>ShowSayMessages</span>=true<br>
+<span class=SpellE>ShowMiscMessages</span>=true<br>
+<span class=SpellE>ShowLocalMessages</span>=true<br>
+<span class=SpellE>ShowServerMessages</span>=true<br>
+<span class=SpellE>ShowOtherMessages</span>=true<br>
+;The time the bot should wait between trying to reconnect to the <span
+class=SpellE>irc</span> server<br>
+<span class=SpellE>ReconnectTime</span>=30.00<br>
+;The prefix that is added to every message that does no use another prefix (eg.
+you could add a <span class=SpellE>mirc</span> <span class=SpellE>color</span>
+code)<br>
+<span class=SpellE>DefaultPrefix</span>=<br>
+;Say messages<br>
+<span class=SpellE>MessagePrefix</span>=<span style='mso-special-character:
+footnote-separator'><![if !supportFootnotes]>
+
+<hr align=left size=1 width="33%">
+
+<![endif]></span>2<br>
+;The misc messages<br>
+<span class=SpellE>MiscPrefix</span>=<span style='mso-special-character:footnote-separator'><![if !supportFootnotes]>
+
+<hr align=left size=1 width="33%">
+
+<![endif]></span>3<br>
+;Death messages<br>
+<span class=SpellE>DeathPrefix</span>=<span style='mso-special-character:footnote-separator'><![if !supportFootnotes]>
+
+<hr align=left size=1 width="33%">
+
+<![endif]></span>4<br>
+;Local messages<br>
+<span class=SpellE>LocalPrefix</span>=<span style='mso-special-character:footnote-separator'><![if !supportFootnotes]>
+
+<hr align=left size=1 width="33%">
+
+<![endif]></span>3<br>
+;Server messages<br>
+<span class=SpellE>ServerPrefix</span>=<span style='mso-special-character:footnote-separator'><![if !supportFootnotes]>
+
+<hr align=left size=1 width="33%">
+
+<![endif]></span>3<br>
+;The green team prefix is used in the scoreboard among other things<br>
+<span class=SpellE>GreenTeamPrefix</span>=<span style='mso-special-character:
+footnote-separator'><![if !supportFootnotes]>
+
+<hr align=left size=1 width="33%">
+
+<![endif]></span>0,3<br>
+;See above (green = red)<br>
+<span class=SpellE>RedTeamPrefix</span>=<span style='mso-special-character:
+footnote-separator'><![if !supportFootnotes]>
+
+<hr align=left size=1 width="33%">
+
+<![endif]></span>0,4<br>
+;All other teams (eg. survival games)<br>
+<span class=SpellE>OtherTeamPrefix</span>=<span style='mso-special-character:
+footnote-separator'><![if !supportFootnotes]>
+
+<hr align=left size=1 width="33%">
+
+<![endif]></span>0,2<br>
+;The prefix of a death message when it is a green team player that died<br>
+<span class=SpellE>GreenTeamDeathPrefix</span>=<span style='mso-special-character:
+footnote-separator'><![if !supportFootnotes]>
+
+<hr align=left size=1 width="33%">
+
+<![endif]></span>4<span style='mso-special-character:footnote'><![if !supportFootnotes]><span
+style='font-size:12.0pt;font-family:"Times New Roman";mso-fareast-font-family:
+"Times New Roman";mso-ansi-language:EN-AU;mso-fareast-language:EN-AU;
+mso-bidi-language:AR-SA'>[1]</span><![endif]></span><br>
+;See above (green = red)<br>
+<span class=SpellE>RedTeamDeathPrefix</span>=<span style='mso-special-character:
+footnote-separator'><![if !supportFootnotes]>
+
+<hr align=left size=1 width="33%">
+
+<![endif]></span>3<span style='mso-special-character:footnote'><![if !supportFootnotes]><span
+style='font-size:12.0pt;font-family:"Times New Roman";mso-fareast-font-family:
+"Times New Roman";mso-ansi-language:EN-AU;mso-fareast-language:EN-AU;
+mso-bidi-language:AR-SA'>[1]</span><![endif]></span><br>
+;The admin password you wish to set<br>
+<span class=SpellE>AdminPassword</span>=<br>
+;The message the bot sends to a channel when it joins for the first time<br>
+<span class=SpellE>OnJoinMessage</span>=<span style='mso-special-character:
+footnote-separator'><![if !supportFootnotes]>
+
+<hr align=left size=1 width="33%">
+
+<![endif]></span>2RvS Match bot by Neo4E656F<br>
+;The player scoreboard format for team games (See IRC Message formatting)<br>
+<span class=SpellE>PlayerTeamScoreFormatString</span>=Name: #name# Ubi: #ubi#
+Kills: #kills# Deaths: #deaths# Ping: #ping#<br>
+;The scoreboard format for normal games<br>
+<span class=SpellE>PlayerScoreFormatString</span>=Name: #name# Ubi: #ubi#
+Kills: #kills# Deaths: #deaths# Ping: #ping#<br>
+;The header of the scoreboard for normal games<br>
+<span class=SpellE>GameFormatString</span>=<span style='mso-special-character:
+footnote-separator'><![if !supportFootnotes]>
+
+<hr align=left size=1 width="33%">
+
+<![endif]></span>0,12Map: #map# Round: #round#/#<span class=SpellE>roundspermap</span>#
+Round Time: #<span class=SpellE>timeremaining#/#timeperround</span># Game Type:
+#<span class=SpellE>gametype</span># Players: #players#/#<span class=SpellE>maxplayers</span>#<br>
+;The header of the scoreboard for <span class=SpellE>teamgames</span><br>
+<span class=SpellE>TeamGameFormatString</span>=<span style='mso-special-character:
+footnote-separator'><![if !supportFootnotes]>
+
+<hr align=left size=1 width="33%">
+
+<![endif]></span>0,3Green Team Score: #<span class=SpellE>greenteamscore</span>#
+<span style='mso-special-character:footnote-separator'><![if !supportFootnotes]>
+
+<hr align=left size=1 width="33%">
+
+<![endif]></span>0,4Red Team Score: #<span class=SpellE>redteamscore</span># <span
+style='mso-special-character:footnote-separator'><![if !supportFootnotes]>
+
+<hr align=left size=1 width="33%">
+
+<![endif]></span>0,14Map: #map# Round: #round#/#<span class=SpellE>roundspermap</span>#
+Round Time: #<span class=SpellE>timeremaining#/#timeperround</span># Game Type:
+#<span class=SpellE>gametype</span># Players: #players#/#<span class=SpellE>maxplayers</span>#<br>
+;The format of messages when you request the info of a particular player<br>
+<span class=SpellE>PlayerInfoFormatString</span>=Name: #name# Ubi: #ubi# <span
+class=SpellE>Banid</span>: #<span class=SpellE>banid</span># Kills: #kills#
+Deaths: #deaths# Ping: #ping#<br>
+;If set to true&nbsp; it is useful for debugging the IRC Bot (see <span
+class=SpellE>ucc.log</span> after running the game for a few minutes)<br>
+Debug=false<br>
+;<span class=SpellE>OnConnectCommand</span> commands can be used to message
+service bots or preform any numerous command on connect an example set of <span
+class=SpellE>OnConnectCommand</span> commands are here:<br>
+;Please note the &quot;:&quot; before the message, this is import and if you do
+not include it only the first word will be sent. The &quot;:&quot; will never
+be sent in the actual message<br>
+<span class=SpellE>OnConnectCommand</span>=PRIVMSG <span class=GramE>nickserv@services.dal.net
+:identify</span> password<br>
+<span class=SpellE>OnConnectCommand</span>=PRIVMSG <span class=SpellE>YourNickName</span>
+:Hi master!</p>
+
+<p><b>IRC Message formatting:</b></p>
+
+<p>Game info format:</p>
+
+<p>#<span class=SpellE>redteamscore</span>#<br>
+#<span class=SpellE>greenteamscore</span>#<br>
+#round#<br>
+#<span class=SpellE>roundspermap</span>#<br>
+#<span class=SpellE>timeperround</span>#<br>
+#<span class=SpellE>timeremaining</span>#<br>
+#<span class=SpellE>timebetweenrounds</span>#<br>
+#<span class=SpellE>timeuntilstart</span>#<br>
+#map#<br>
+#<span class=SpellE>maxplayers</span>#<br>
+#players#<br>
+#<span class=SpellE>bombtime</span>#<br>
+#<span class=SpellE>gametype</span>#<br>
+#<span class=SpellE>neutralizedterros</span>#</p>
+
+<p><br>
+Player and scoreboard format:</p>
+
+<p>#name#<br>
+#ubi#<br>
+#kills#<br>
+#deaths#<br>
+#ping#<br>
+#health#<br>
+#<span class=SpellE>roundkills</span>#<br>
+#<span class=SpellE>rounddeaths</span>#<br>
+#score#<br>
+#killer#<br>
+#<span class=SpellE>roundsfired</span>#<br>
+#<span class=SpellE>roundshit</span>#<br>
+#<span class=SpellE>roundsplayed</span>#<br>
+#<span class=SpellE>roundswon</span>#<br>
+#accuracy#<br>
+#lives#<br>
+#<span class=SpellE>banid</span>#</p>
+
+</div>
+
+</body>
+
+</html>

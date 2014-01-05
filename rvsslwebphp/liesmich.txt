@@ -1,0 +1,35 @@
+Serverliste für RainbowSix3 , Raven Shield von UBI-Soft
+
+Installationsanleitung:
+1) Die Datei config.inc.php im Ordner rvsslwebphp konfigurieren.
+   Wichtig dabei sind die Zugangsdaten zu Ihrer MySQL Datenbank.
+
+2) Den Ordner rvsslwebphp komplett auf ihren Webspace laden.
+   (Umbennen vorher ist möglich)
+
+3) Starten des Installationsscripts:
+   http://www.ihre.domain/rvsslwebphp/install.php
+
+4) Nach Abschluss der Installation löschen sie bitte die install.php auf ihren Webspace!
+
+5) Aufruf der Serverliste mit
+   http://www.ihre.domain/rvsslwebphp/index.html oder
+   http://www.ihre.domain/rvsslwebphp/serverliste.php
+
+6) Begeben sie sich in den Admin-Bereich der Serverliste mit dem Link unterhalb dieser Seite oder
+   http://www.ihre.domain/rvsslwebphp/admin.php
+   Hier mit default admin/admin einloggen und die Zugangsdaten dort ändern!
+
+Die Serverliste und Serveranzeige ist auch bei "normalen" Servern möglich.
+Erweiterte Informationen erscheinen erst, wenn TATIpDRV oder N4Admin auf dem Server installiert sind.
+
+Die Administrationsmöglichkeiten des Raven-Shield-Servers werden erst durch die
+Installation eines Server-Mods mit dem Namen 'N4Admin' von Neo4E656F ermöglicht!
+Dieser Mod ist seperat erhältlich!
+z.B. http://www.koalaclaw.com oder http://www.tsaf.de
+Das Admin-Script ist nur teilweise kompatibel mit TATIpDRV!
+
+(C)opyright 2003 =TSAF=Muschel
+http://www.tsaf.de
+muschel@tsaf.de
+

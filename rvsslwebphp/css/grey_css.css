@@ -1,0 +1,165 @@
+BODY
+{
+    margin: 0px;
+    COLOR: white;
+    BACKGROUND-COLOR: #000000;
+ 
+
+}
+.textfield
+{
+    BORDER-RIGHT: #808080 1px solid;
+    BORDER-TOP: #808080 1px solid;
+    BORDER-LEFT: #808080 1px solid;
+    BORDER-BOTTOM: #808080 1px solid;
+FONT-FAMILY: Verdana,Arial; FONT-SIZE: 9px; TEXT-DECORATION: none;
+background-color: #404040; color: #f0f0ff; font-weight: normal
+}
+.button
+{
+    BORDER-RIGHT: #3a3a3a 1px solid;
+    BORDER-TOP: #808080 1px solid;
+    BORDER-LEFT: #808080 1px solid;
+    BORDER-BOTTOM: #202020 1px solid;
+FONT-FAMILY: Verdana,Arial; FONT-SIZE: 9px; TEXT-DECORATION: none;
+background-color: #404040; color: #f0f0ff; font-weight: normal
+}
+.buttonyellow
+{
+    BORDER-RIGHT: #203050 1px solid;
+    BORDER-TOP: #6080a0 1px solid;
+    BORDER-LEFT: #6080a0 1px solid;
+    BORDER-BOTTOM: #203050 1px solid;
+FONT-FAMILY: Verdana,Arial; FONT-SIZE: 9px; TEXT-DECORATION: none;
+background-color: #b0b000; color: #000000; font-weight: normal
+}
+.header
+{
+    COLOR: #cccccc;
+    BACKGROUND-COLOR: #666666;
+
+}
+TD
+{
+    FONT-SIZE: 11px;
+    COLOR: #ffffff;
+    FONT-FAMILY: Verdana
+}
+A:link
+{
+    COLOR: silver;
+    TEXT-DECORATION: none
+}
+A:active
+{
+    COLOR: white;
+    TEXT-DECORATION: none
+}
+A:visited
+{
+    COLOR: silver;
+    TEXT-DECORATION: none
+}
+A:hover
+{
+    COLOR: white;
+    TEXT-DECORATION: none
+}
+.bigheader
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 12px;
+    COLOR: #000044;
+    BACKGROUND-COLOR: #A5B5D0;
+
+}
+.rand
+{
+    BORDER-RIGHT: black 0px solid;
+    BORDER-TOP: black 0px solid;
+    BORDER-LEFT: #777777 1px solid;
+    BORDER-BOTTOM: #777777 1px solid;
+    background-color: #1a1a1a;
+ 
+}
+.randende
+{
+    BORDER-RIGHT: #777777 1px solid;
+    BORDER-TOP: black 0px solid;
+    BORDER-LEFT: #777777 1px solid;
+    BORDER-BOTTOM: #777777 1px solid;
+    background-color: #1a1a1a;
+}
+.green
+{
+    BORDER-RIGHT: #777777 1px solid;
+    BORDER-TOP: black 0px solid;
+    BORDER-LEFT: #777777 1px solid;
+    BORDER-BOTTOM: #777777 1px solid;
+    background-color: #006600;
+}
+.red
+{
+    BORDER-RIGHT: #777777 1px solid;
+    BORDER-TOP: black 0px solid;
+    BORDER-LEFT: #777777 1px solid;
+    BORDER-BOTTOM: #777777 1px solid;
+    background-color: #660000;
+ 
+}
+.spec
+{
+    BORDER-RIGHT: #777777 1px solid;
+    BORDER-TOP: black 0px solid;
+    BORDER-LEFT: #777777 1px solid;
+    BORDER-BOTTOM: #777777 1px solid;
+    background-color: #2a2a2a;
+ 
+}
+.black
+{
+    BORDER-RIGHT: #777777 1px solid;
+    BORDER-TOP: black 0px solid;
+    BORDER-LEFT: #777777 1px solid;
+    BORDER-BOTTOM: #777777 1px solid;
+    background-color: #101010;
+ 
+}
+.frame
+{
+    BORDER-RIGHT: black 1px solid;
+    BORDER-TOP: black 1px solid;
+    BORDER-LEFT: black 1px solid;
+    BORDER-BOTTOM: black 1px solid
+}
+
+ .tabfarbe-5  { background-color: #1a1a1a; color: #000000; font-weight: normal }
+ .tabfarbe-3  { background-color: #777777; color: #000000; font-weight: normal;  }
+
+.oben      { font-family: Verdana, Arial; font-size: 12px; text-decoration: none; color:
+               #000044 ; background-color: #b0b0b0; font-weight: bold; }
+
+.results  { font-family: Verdana, Arial; font-size: 12px; text-decoration: none; color:
+                #fafaff;background-color: #2b2b2b; color: #FFFFFF; font-weight: normal }
+
+.normal {FONT-FAMILY: Verdana,Arial; FONT-SIZE: 11px; TEXT-DECORATION: none; COLOR: #f0f0f0}
+.playername {FONT-FAMILY: Verdana,Arial; FONT-SIZE: 11px; TEXT-DECORATION: none; COLOR: #f0f0f0}
+.countlow {FONT-FAMILY: Verdana,Arial; FONT-SIZE: 11px; TEXT-DECORATION: none; COLOR: #00ff00}
+.countmedium {FONT-FAMILY: Verdana,Arial; FONT-SIZE: 11px; TEXT-DECORATION: none; COLOR: #ffff00}
+.counthight {FONT-FAMILY: Verdana,Arial; FONT-SIZE: 11px; TEXT-DECORATION: none; COLOR: #446644}
+.countfull {FONT-FAMILY: Verdana,Arial; FONT-SIZE: 11px; TEXT-DECORATION: none; COLOR: #ff3333}
+.headers {FONT-FAMILY: Verdana,Arial; FONT-SIZE: 11px; TEXT-DECORATION: none; COLOR: #f0f0f0; font-weight: bold}
+.offline {FONT-FAMILY: Verdana,Arial; FONT-SIZE: 11px; TEXT-DECORATION: none; COLOR: #ff0000}
+
+a.nav {FONT-FAMILY: Verdana,Arial; FONT-SIZE: 11px; TEXT-DECORATION: none}
+a.nav:link {COLOR: #eeeeee}
+a.nav:visited {COLOR: #eeeeee}
+a.nav:active { color: #aaaaaa }
+a.nav:hover {COLOR: #aaaaaa }
+
+a.nav2 {FONT-FAMILY: Verdana,Arial; FONT-SIZE: 11px; TEXT-DECORATION: none}
+a.nav2:link {COLOR: #ff0000}
+a.nav2:visited {COLOR: #ff0000}
+a.nav2:active { color: #cc0000}
+a.nav2:hover {COLOR: #cc0000}
+

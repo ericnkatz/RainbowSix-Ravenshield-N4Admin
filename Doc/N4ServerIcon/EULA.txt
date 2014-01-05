@@ -1,0 +1,18 @@
+The N4Admin web component v1.20as PHP-Script, Copyright © 2003,2004 by =TSAF=Muschel  and released under the GNU-GPL.
+
+This version of N4Admin and URLPost are NOT covered by the GPL license.  Furthermore all rights provided by the GPL to third parties in previous versions are hereby forfeited to the maximum extent of the law.
+
+In order to use this version of N4Admin and/or URLPost you must delete all copies of N4Admin and URLPost and any of their source code from your system. 
+
+N4ServerIcon is no longer open source.  In order to use this version of N4ServerIcon you must first delete all copies of N4ServerIcon from your system including any source code.
+
+N4Admin, N4ServerIcon and URLPost are Copyright © 2004 Neil Popplewell.  All rights reserved.
+
+While we make every effort to deliver a high quality product, we do not guarantee that our products are free from defects. This software, (N4Admin, N4ServerIcon and URLPost), is free for non-commercial use, and provided “as is," and you use the software at your own risk. We make no warranties as to performance, merchantability, fitness for a particular purpose, or any other warranties whether expressed or implied.  No oral or written communication from or information provided by we shall create a warranty. Under no circumstances shall we be liable for direct, indirect, special, incidental, or consequential damages resulting from the use, misuse, or inability to use this software, even if we has been advised of the possibility of such damages.
+
+Furthermore, unless otherwise granted permission you may only use this software, (N4Admin, N4ServerIcon and URLPost) for non-commercial purposes.  No fees may be charged for the setup, use or maintenance of these products by any person or business.  For inquiries regarding commercial use, please contact neo@squadgames.com.
+
+
+By using the program(s) contained within this package you agree to allow N4Admin, URLPost and any other product contained  within this package to submit a copy of your server statistics to the www.squadgames.com master database of N4Admin servers. 
+
+If you do not agree with these conditions please abort the program installation now.

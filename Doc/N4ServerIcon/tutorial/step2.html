@@ -1,0 +1,164 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>N4ServerIcon v.91 - Tutorial</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link href="css/styles.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+<!--
+a:link {
+	color: #000066;
+}
+a:visited {
+	color: #000066;
+}
+a:hover {
+	color: #000099;
+}
+a:active {
+	color: #000099;
+}
+-->
+</style></head>
+
+<body>
+<table width="725"  border="1" align="center" cellpadding="5" cellspacing="5" bordercolor="#000000" class="medfont">
+  <tr>
+    <td bordercolor="#FFFFFF"><div align="center">
+      <p><img src="images/toplogo.jpg" width="725" height="116"></p>
+      <p>&nbsp;</p>
+    </div></td>
+  </tr>
+  <tr>
+    <td bordercolor="#FFFFFF"><p>You've finished creating your logo and we're on to <span class="medfontImp">Step 2</span>.</p>
+      <p><span class="medfontImp">Before proceeding please shutdown your server so that our changes will not be reverted when the server is shutdown.</span></p>
+      <p>First, upload the <span class="medfontImp">N4ServerIcon.utx</span> file from the download to the Textures directory of your server. </p>
+      <p>Second, also upload the <span class="medfontImp">MyServerIcon_T.utx</span> file that you created to the Textures directory of your server. (or whatever filename you have created) </p>
+      <p>Now open up RavenShield.mod or AthenaSword.mod in your servers' Mods folder (whichever mod your server is running)</p>
+      <p>Then add this line to the .mod file in with all the other server packages </p>
+      <ul>
+        <li><span class="medfontImp">ServerPackages=N4ServerIcon</span></li>
+      </ul>
+      <p>Next add your own texture package. In our example it was MyServerIcon_T, so we would add the following </p>
+      <ul>
+        <li><span class="medfontImp">ServerPackages=MyServerIcon_T</span><br>
+        </li>
+      </ul>
+    <p>While you are still in your .mod file, you need to add a ServerActor as well. Add the following line.</p>
+    <ul>
+      <li><span class="medfontImp">ServerActors=N4ServerIcon.N4ServerIconLoader</span> </li>
+      </ul>
+    <p align="center">Example<br>
+      <img src="images/modfile.jpg" width="623" height="441">    </p>    
+    <p>When you have finished, save the .mod file and re-upload it to your server if necessary.</p>
+    <p>Now you need to open up the appropriate ravenshield.ini file which is usually in your ravenshield\system directory.<br>
+        At the bottom of the file, add the following. (Just select all the text in the box and copy and paste it to your INI file) </p>
+    <p align="center">
+      <textarea readonly name="textarea" cols="100" rows="5" wrap="VIRTUAL">[N4ServerIcon.N4ServerIconLoader]
+IconInfo[0]=(Icon=Material'MyServerIcon_T.mygroup.myfb',Pos=(X=576,Y=0),StartPos=(X=0,Y=0),DrawSize=(X=64,Y=32),Size=(X=64,Y=32),color=(R=255,G=255,B=255,A=127),bShowWhileAlive=true,bDoNotShowWhileDead=false)</textarea>
+</p>
+    <p align="left" class="medfontImp">Note: Each IconInfo must be on a different line. For example, if you want to have seperate Icons you need to do something like the following: </p>
+    <p align="center">
+      <textarea readonly name="textarea2" cols="100" rows="10" wrap="OFF">[N4ServerIcon.N4ServerIconLoader]
+IconInfo[0]=(Icon=Material'MyServerIcon_T.mygroup.myfb',Pos=(X=576,Y=0),StartPos=(X=0,Y=0),DrawSize=(X=64,Y=32),Size=(X=64,Y=32),color=(R=255,G=255,B=255,A=127),bShowWhileAlive=true,bDoNotShowWhileDead=false)
+IconInfo[1]=(Icon=Material'MyServerIcon_T.mygroup.myfb',Pos=(X=576,Y=0),StartPos=(X=0,Y=0),DrawSize=(X=64,Y=32),Size=(X=64,Y=32),color=(R=255,G=255,B=255,A=127),bShowWhileAlive=true,bDoNotShowWhileDead=false)
+IconInfo[2]=(Icon=Material'MyServerIcon_T.mygroup.myfb',Pos=(X=576,Y=0),StartPos=(X=0,Y=0),DrawSize=(X=64,Y=32),Size=(X=64,Y=32),color=(R=255,G=255,B=255,A=127),bShowWhileAlive=true,bDoNotShowWhileDead=false)</textarea>
+    </p>
+    <p align="center">Example<br>
+        <img src="images/ravenshieldini.jpg" width="623" height="441">    </p>
+    <p>Save the file and re-upload it to your server if necessary.</p>
+        <p>VERY IMPORTANT: <br>
+          Clients should not download your texture package or N4ServerIcon manually. They and people who are testing them on their client machines should delete the files off their computer before going onto any public servers otherwise you may get a package mismatch if they are running a different version. There will be no problems if you join multiple servers running different versions this way. </p>
+        <p>There are many options you can set for how Ravenshield displays the icon, however showing you all the options and variables would be a lengthy process. We've given you the basic foundation to get the server icon up and running, so feel free to play around with the variables - at your own risk. Here is a tidbit from Neo's readme in regards to the additional variables.</p>        <table width="600" border="1" align="center" cellpadding="5" cellspacing="0" bordercolor="#666666">
+      <tr>
+        <td bordercolor="#FFFFFF">There are more options, here is a full list of hte options:
+          <p> var() config N4Point Pos;<br>
+  var() config N4Point StartPos;<br>
+  var() config N4Point DrawSize;<br>
+  var() config N4Point Size;<br>
+  var() config color color;<br>
+  var() config float RotationAngle;<br>
+  var() config bool bShowWhileAlive;<br>
+  var() config bool bDoNotShowWhileDead;<br>
+  var() config float StartUpTime;<br>
+  var() config float FadeInTime;<br>
+  var() config float FadeOutTime;</p>
+          <p>And how to use them:</p>
+          <p>icon this is the icon it can be of any material class, example:<br>
+            Icon=Material'MyServerIcon_T.mygroup.myfb'</p>
+          <p>Pos this is the x,y position on the screen (relative to the resolution 640x480), example:<br>
+            Pos=(X=576,Y=0) </p>
+          <p>StartPos is the position in the material to start drawing from. This should generally be left to 0<br>
+            StartPos=(X=0.0,Y=0.0)</p>
+          <p>Size is the size of the texture (if you make this less than in fact the real size you are in effect clipping the texture...this can be useful to select sections of a texture, if you use startpos as well), example:<br>
+            Size=(X=64,Y=32)</p>
+          <p>color is the color of the texture, it is broken up into four components RGBA, red, green, blue, alpha all range from 0-255 so to have a half transparent texture you would select A=127, generally you would make R=255,G=255,B=255 to make <br>
+            sure all colors are drawn in the texture, example:<br>
+            Color=(R=255,G=255,B=255,A=127)</p>
+          <p>RotationAngle rotates the texture by a specific angle, this should generally be left to 0, example:<br>
+            RotationAngle=0.0</p>
+          <p>bShowWhileAlive determines if the texture will be shown while the player is alive, set to true if you want it to be or false if you don&rsquo;t, example:<br>
+            bShowWhileAlive=true</p>
+          <p>bDoNotShowWhileDead determins if the texture will NOT be shown while dead, example:<br>
+            bDoNotShowWhileDead=false</p>
+          <p>StartUpTime determines when the texture will begin to fadein, it is often useful to set this to the same value as the fadeouttime<br> 
+            of another texture to get a smooth transition, eg:<br>
+            StartUpTime=2.0</p>
+          <p>FadeInTime is the time from when the texture begins to show until it reachs its desired alpha value, eg:<br>
+            FadeInTime=2.0</p>
+          <p>FadeOutTime is the time it takes for the texture to disappear (reach an alpha value of 0), eg:<br>
+            FadeOutTime=2.0<br>
+          </p>
+          <p>if you do not edit any values they will go to their defaults for N4Point objects that is (X=0.0,Y=0.0), for color (or colour) it is <br>
+            R=255,B=255,G=255,A=127, for all bool properties the default is false and for all float properties the default is 0.0<br>
+          </p>
+          <p>FINALLY:<br>
+            You can have up to 4 icons per icon loader, if you want more there is a way to do it (see the advanced section). Each icon is indexed from 0-3 so<br>
+            IconInfo[0]=...<br>
+            IconInfo[1]=...<br>
+            IconInfo[2]=...<br>
+            IconInfo[3]=...</p>
+          <p>ANOTHER EXAMPLE:<br>
+            This example takes a texture of size 64x32 and shows it at full size when you are dead and half size while you are alive, the two icons fade in and out smoothly during the transitions <br>
+            (both are shown in the top right hand corner of the screen):</p>
+          <p>[N4ServerIcon.N4ServerIconLoader]<br>
+            IconInfo[0]=(StartUpTime=2.0,FadeInTime=2.0,FadeOutTime=2.0,Icon=Material'MyServerIcon_T.mygroup.myfb',<br>
+            Pos=(X=576,Y=0),StartPos=(X=0,Y=0),DrawSize=(X=64,Y=32),Size=(X=64,Y=32),color=(R=255,G=255,B=255,A=127) <br>
+            ,bShowWhileAlive=true,bDoNotShowWhileDead=false)<br>
+            IconInfo[0]=(StartUpTime=2.0,FadeInTime=2.0,FadeOutTime=2.0,Icon=Material'MyServerIcon_T.mygroup.myfb',<br>
+            Pos=(X=512,Y=0),StartPos=(X=0,Y=0),DrawSize=(X=128,Y=64),Size=(X=64,Y=32),color=(R=255,G=255,B=255,A=127) <br>
+            ,bShowWhileAlive=true,bDoNotShowWhileDead=false)<br>
+          </p>
+          <p>ADVANCED:<br>
+            if you really must have more than 4 server icons you can add as many N4ServerIcon.N4ServerMultiIconLoader serveractors as you like, then the config is the same except it must be under:<br>
+            [N4ServerMultiIconLoader0]</p>
+          <p>then</p>
+          <p>[N4ServerMultiIconLoader1]</p>
+          <p>etc etc etc</p></td>
+      </tr>
+    </table>    
+        <p>Troubleshooting:</p>
+        <p>Q. I get package mismatch when I join a server, why?<br>
+          <br>
+          A. 
+    Delete N4ServerIcon.utx from your texture directory on your client machine, it is not needed and can block newer/older versions of the program from downloading when you join the server.</p>
+        <p>Q. I am having problems, I cannot be bothered reading this document properly although I will tell you I read right through it, what do I do?<br>
+          <br>
+          A. 
+    You do not email me, you re-read this document and if you still cannot figure it out you go on the forums and ask your question and hope someone will help you out. Then once you have found this out you make your own &ldquo;easier&rdquo; tutorial to show to other people.</p>
+        <p>Q. Are you sure you want me to put this in the Textures directory and not the System directory?<br>
+          <br>
+          A. 
+    Yes I am 100% sure.</p>
+        <p>&nbsp;</p>        <table width="500" border="1" align="center" cellpadding="5" cellspacing="0" bordercolor="#000000">
+      <tr>
+        <td bordercolor="#FFFFFF"><div align="center">This tutorial compliments of <a href="http://www.a4d.org" target="_blank">A4D|Force</a>  <br>
+          Original Readme by Neo4E656F <br>
+          Find out more at <a href="http://www.koalaclaw.com/" target="_blank">http://www.koalaclaw.com/</a></div></td>
+      </tr>
+    </table>    </td>
+  </tr>
+</table>
+</body>
+</html>

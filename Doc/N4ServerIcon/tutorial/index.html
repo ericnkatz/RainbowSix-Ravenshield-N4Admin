@@ -1,0 +1,68 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>N4ServerIcon v.91 - Tutorial</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link href="css/styles.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+<!--
+a:link {
+	color: #000066;
+}
+a:visited {
+	color: #000066;
+}
+a:hover {
+	color: #000099;
+}
+a:active {
+	color: #000099;
+}
+-->
+</style>
+</head>
+
+<body>
+<table width="725"  border="1" align="center" cellpadding="5" cellspacing="5" bordercolor="#000000" class="medfont">
+  <tr>
+    <td bordercolor="#FFFFFF"><div align="center">
+      <p><img src="images/toplogo.jpg" width="725" height="116"></p>
+      <p>&nbsp;</p>
+    </div></td>
+  </tr>
+  <tr>
+    <td bordercolor="#FFFFFF"><p>Welcome to the N4ServerIcon v.91 tutorial. We hope this will help you get through the process of setting up the N4ServerIcon with some kind of ease. It is very important you follow all steps in this tutorial or we can't promise that it will work on your server. </p>
+    <p>First things first, make sure you have downloaded the complete N4ServerIcon package. If you don't have it, <a href="http://www.koalaclaw.com/utils/N4ServerIcon091.zip">click here</a> for the Zip file.</p>
+    <p>Next thing, open your graphics program and create an icon. (preferred size of 64x32) Note: You can create the icon with an alpha channel.</p>
+    <p>Once you have finished creating the file, save it as a 32-bit Targa (.tga) file in a place that is convenient for you to find. </p>
+    <p class="medfontImp">Note: You CANNOT create the file as a 24-bit or 16-bit targa. UnrealEd will crash. </p>    <p>Now, go to your Ravenshield folder either by browsing to it on your hard drive, or go to the program group in your Start Menu and open the Ravenshield Map Editor. <img src="images/unrealedicon.jpg" width="51" height="61" align="texttop"></p>
+    <p>First thing you need to do once the UnrealEditor is open is to familiarize yourself with the Textures window. This is where we are going to create the icon so that it will be compatible with the Ravenshield textures. The window should look something like this.</p>
+    <p align="center"><img src="images/textureswindow.jpg" width="654" height="524"></p>
+    <p align="left">Now we need to Import your targa file from your hard-drive. Click the &quot;File&gt;Import.&quot;</p>
+    <p align="center"><img src="images/import.jpg" width="336" height="355"></p>
+    <p align="left">Now, browse to your targa file and open it. This will open the Import dialog box. For this example we will call the package &quot;MyServerIcon_T&quot; <span class="medfontImp">(Make sure it is a unique name)</span>. Next pick a group &amp; name for your texture. For this example we will call the group &quot;mygroup&quot; and the texture &quot;mytex.&quot; (See example below)</p>
+    <p align="center"><img src="images/importtexture.jpg" width="366" height="256"> </p>
+    <p align="left">Click ok and import the file.</p>
+    <p align="left">If your icon has an Alpha Channel then you need to right click it and open the properties window.</p>
+    <p align="center"><img src="images/properties.jpg" width="354" height="524"></p>
+    <p align="left">Then click the + sign next to &quot;Surface&quot; to expand the list. From bAlphaTexture select &quot;True&quot; to enable the Alpha Channel. (See below) </p>
+    <p align="center"><img src="images/balphatexture.jpg" width="600" height="536"> </p>
+    <p align="left">To save this setting just close the window.</p>
+    <p align="left">Next, go to &quot;File&gt;New.&quot; Package and Group should already be filled. All you need to do is name it. For this example, we will name it &quot;myfb&quot;. Under the MaterialClass drop down, select &quot;FinalBlend&quot; and click &quot;New&quot; </p>
+    <p align="center"><img src="images/myfg.jpg" width="594" height="456"></p>
+    <p align="left">Now Right-Click your &quot;myfb&quot; file, and go to Properties. Under &quot;FrameBufferingBlending&quot;, select &quot;FB_Alphablend&quot;. </p>
+    <p align="center"><img src="images/fbalphablend.jpg" width="600" height="229"></p>
+    <p align="left">Now go to the Material section and select your Texture. (It may be easiest just to type the name of your texture, which, in this example is &quot;mytex&quot;. Refer to the example below) Also select this texture for your &quot;Fallbackmaterial&quot; </p>
+    <p align="center"><img src="images/selecttexture.jpg" width="600" height="536"></p>
+    <p align="left">Just close the window to save your settings. Now, it is time to save your texture file. Go to &quot;File&gt;Save&quot;</p>
+    <p align="center"><img src="images/save.jpg" width="284" height="321"></p>
+    <p align="center">Now, most people like myself have this problem.<br>
+      <br> 
+    <img src="images/spaces.jpg" width="495" height="107" align="texttop"></p>
+    <p align="left">It's not all that hard. This comes from a bug in the UnrealEditor that causes it to error out when trying to save to the Ravenshield directory. This is due to the fact that Ravenshield installs the game with spaces in the folder names. So, the easy way around this is to just save the file directly to your C:\ drive (or similar folder with no spaces)</p>
+    <p align="left" class="medfontImp">Once you have saved the file, close the editor and move on to <a href="step2.html">Step 2 &gt;</a> </p></td>
+  </tr>
+</table>
+</body>
+</html>

@@ -1,0 +1,70 @@
+urlPost Installations-Anleitung
+----------------------------------------
+1)
+Die Datei urlPost.u auf den Server in den Ordner ../System/
+kopieren.
+
+
+2)
+Die Datei ravenshield.ini im Ordner ../System/ vom Server editieren.
+Am Ende folgendes einfügen und auf Server speichern:
+
+
+[urlPost.urlPost]
+postHost=www.yourdomain.de
+postURL=/rvsslwebphp/post.php
+postPort=80
+postIdent=yourpostident
+
+
+Erklärung:
+
+postHost=www.yourdomain.de
+Die Adresse des Webservers, auf dem die Serverliste V1.10+ liegt.
+
+postURL=/rvsslwebphp/post.php
+Der weiterführende Pfad zur post.php
+
+postPort=80
+In der Regel Port 80 Html.
+
+postIdent=yourpostident
+Die postIdent wird vom Admin der Serverliste vergeben, und dient zur
+Unterscheidung der sendenen Game-Server.
+
+
+3)
+Die Datei ravenshield.mod im Ordner ../Mods/ vom Server editieren.
+Diese Zeile unter [Engine.GameEngine] einfügen:
+
+
+ServerActors=urlPost.urlPost
+
+
+Das sieht dann in etwa so aus:
+
+....
+[Engine.GameEngine]
+CacheSizeMegs=32
+UseSound=True
+ServerActors=IpDrv.UdpBeacon
+ServerActors=urlPost.urlPost
+ServerPackages=GamePlay
+ServerPackages=R6Abstract
+ServerPackages=R6Engine
+ServerPackages=R6Characters
+....
+
+
+4)
+Server starten.
+
+Der Server sendet nun nach jeder Runden Daten zur Serverliste (post.php).
+Die Ident muss auch dort eingerichtet sein!
+Die Ident ist sozusagen Username und Passwort in einem.
+
+=TSAF=Muschel
+http://www.tsaf.de
+
+Neil Popplewell (aka Neo4E656F) http://www.koalaclaw.com
+

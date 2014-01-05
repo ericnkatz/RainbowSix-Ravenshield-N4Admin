@@ -1,0 +1,169 @@
+BODY
+{
+    margin: 0px;
+    COLOR: white;
+    BACKGROUND-COLOR: #000000;
+    scrollbar-face-color: #0f0f40;
+    scrollbar-shadow-color: #090940;
+    scrollbar-highlight-color: #606090;
+    scrollbar-3dlight-color: #000040;
+    scrollbar-darkshadow-color: #000020;
+    scrollbar-track-color: #000020;
+    scrollbar-arrow-color: #8080ff;	                       }
+}
+.textfield
+{
+    BORDER-RIGHT: #2030f0 1px solid;
+    BORDER-TOP: #2030f0 1px solid;
+    BORDER-LEFT: #2030f0 1px solid;
+    BORDER-BOTTOM: #2030f0 1px solid;
+FONT-FAMILY: Verdana,Arial; FONT-SIZE: 9px; TEXT-DECORATION: none;
+background-color: #000070; color: #f0f0ff; font-weight: normal
+}
+.button
+{
+    BORDER-RIGHT: #203050 1px solid;
+    BORDER-TOP: #2030f0 1px solid;
+    BORDER-LEFT: #2030f0 1px solid;
+    BORDER-BOTTOM: #203050 1px solid;
+FONT-FAMILY: Verdana,Arial; FONT-SIZE: 9px; TEXT-DECORATION: none;
+background-color: #0000b0; color: #f0f0ff; font-weight: normal
+}
+.buttonyellow
+{
+    BORDER-RIGHT: #203050 1px solid;
+    BORDER-TOP: #6080a0 1px solid;
+    BORDER-LEFT: #6080a0 1px solid;
+    BORDER-BOTTOM: #203050 1px solid;
+FONT-FAMILY: Verdana,Arial; FONT-SIZE: 9px; TEXT-DECORATION: none;
+background-color: #b0b000; color: #000000; font-weight: normal
+}
+.header
+{
+    COLOR: #55555ff;
+    BACKGROUND-COLOR: #3050d0;
+
+}
+TD
+{
+    FONT-SIZE: 11px;
+    COLOR: #e0e0ff;
+    FONT-FAMILY: Verdana
+}
+A:link
+{
+    COLOR: silver;
+    TEXT-DECORATION: none
+}
+A:active
+{
+    COLOR: white;
+    TEXT-DECORATION: none
+}
+A:visited
+{
+    COLOR: silver;
+    TEXT-DECORATION: none
+}
+A:hover
+{
+    COLOR: white;
+    TEXT-DECORATION: none
+}
+.bigheader
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 12px;
+    COLOR: #ffffff;
+    BACKGROUND-COLOR: #A5B5D0;
+}
+.rand
+{
+    BORDER-RIGHT: black 0px solid;
+    BORDER-TOP: black 0px solid;
+    BORDER-LEFT: #3030b0 1px solid;
+    BORDER-BOTTOM: #3030b0 1px solid;
+    background-color: #000060;
+}
+.randende
+{
+    BORDER-RIGHT: #3030b0 1px solid;
+    BORDER-TOP: black 0px solid;
+    BORDER-LEFT: #3030b0 1px solid;
+    BORDER-BOTTOM: #3030b0 1px solid;
+    background-color: #000060;
+}
+.green
+{
+    BORDER-RIGHT: #3030b0 1px solid;
+    BORDER-TOP: black 0px solid;
+    BORDER-LEFT: #3030b0 1px solid;
+    BORDER-BOTTOM: #3030b0 1px solid;
+    background-color: #006000;
+ 
+}
+.red
+{
+    BORDER-RIGHT: #3030b0 1px solid;
+    BORDER-TOP: black 0px solid;
+    BORDER-LEFT: #3030b0 1px solid;
+    BORDER-BOTTOM: #3030b0 1px solid;
+    background-color: #600000;
+ 
+}
+.spec
+{
+    BORDER-RIGHT: #3030b0 1px solid;
+    BORDER-TOP: black 0px solid;
+    BORDER-LEFT: #3030b0 1px solid;
+    BORDER-BOTTOM: #3030b0 1px solid;
+    background-color: #2a2a2a;
+ 
+}
+.black
+{
+    BORDER-RIGHT: #3030b0 1px solid;
+    BORDER-TOP: black 0px solid;
+    BORDER-LEFT: #3030b0 1px solid;
+    BORDER-BOTTOM: #3030b0 1px solid;
+    background-color: #101010;
+ 
+}
+.frame
+{
+    BORDER-RIGHT: black 1px solid;
+    BORDER-TOP: black 1px solid;
+    BORDER-LEFT: black 1px solid;
+    BORDER-BOTTOM: black 1px solid
+}
+
+ .tabfarbe-5  { background-color: #000060; color: #000000; font-weight: normal }
+ .tabfarbe-3  { background-color: #3030b0; color: #000000; font-weight: normal;  }
+
+.oben      { font-family: Verdana, Arial; font-size: 12px; text-decoration: none; color:
+               #ffffff ; background-color: #A5B5D0; font-weight: bold; }
+
+.results  { font-family: Verdana, Arial; font-size: 12px; text-decoration: none; color:
+                #fafaff;background-color: #000060; color: #FFFFFF; font-weight: normal }
+
+.normal {FONT-FAMILY: Verdana,Arial; FONT-SIZE: 11px; TEXT-DECORATION: none; COLOR: #ffffff}
+.playername {FONT-FAMILY: Verdana,Arial; FONT-SIZE: 11px; TEXT-DECORATION: none; COLOR: #f0f0f0}
+.countlow {FONT-FAMILY: Verdana,Arial; FONT-SIZE: 11px; TEXT-DECORATION: none; COLOR: #00ff00}
+.countmedium {FONT-FAMILY: Verdana,Arial; FONT-SIZE: 11px; TEXT-DECORATION: none; COLOR: #ffff00}
+.counthight {FONT-FAMILY: Verdana,Arial; FONT-SIZE: 11px; TEXT-DECORATION: none; COLOR: #446644}
+.countfull {FONT-FAMILY: Verdana,Arial; FONT-SIZE: 11px; TEXT-DECORATION: none; COLOR: #ff3333}
+.headers {FONT-FAMILY: Verdana,Arial; FONT-SIZE: 11px; TEXT-DECORATION: none; COLOR: #e0e0ff; font-weight: bold}
+.offline {FONT-FAMILY: Verdana,Arial; FONT-SIZE: 11px; TEXT-DECORATION: none; COLOR: #ff0000}
+
+a.nav {FONT-FAMILY: Verdana,Arial; FONT-SIZE: 11px; TEXT-DECORATION: none}
+a.nav:link {COLOR: #ddddff}
+a.nav:visited {COLOR: #ddddff}
+a.nav:active { color: #aaaaff }
+a.nav:hover {COLOR: #aaaaff }
+
+a.nav2 {FONT-FAMILY: Verdana,Arial; FONT-SIZE: 11px; TEXT-DECORATION: none}
+a.nav2:link {COLOR: #ff0000}
+a.nav2:visited {COLOR: #ff0000}
+a.nav2:active { color: #cc0000}
+a.nav2:hover {COLOR: #cc0000}
+
